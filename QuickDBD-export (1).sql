@@ -1,5 +1,5 @@
 ﻿
--- ***** Object:  Table [dbo].[books_info]    Script Date: 19/10/2022 21:47:16 *****
+-- ***** Object:  Table [dbo].[books_info]     *****
 CREATE TABLE [dbo].[books_info] (
     [book_id] int  NOT NULL ,
     [title] varchar(255)  NOT NULL ,
@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[books_info] (
     )
 )
 
--- ***** Object:  Table [dbo].[books_reservation]    Script Date: 19/10/2022 21:47:16 *****
+-- ***** Object:  Table [dbo].[books_reservation]   *****
 CREATE TABLE [dbo].[books_reservation] (
     [book_id] int  NOT NULL ,
     [title] varchar(255)  NOT NULL ,
@@ -20,7 +20,7 @@ CREATE TABLE [dbo].[books_reservation] (
     [book_id_mapping] int  NOT NULL 
 )
 
--- ***** Object:  Table [dbo].[books_titles]    Script Date: 19/10/2022 21:47:16 *****
+-- ***** Object:  Table [dbo].[books_titles]     *****
 CREATE TABLE [dbo].[books_titles] (
     [book_id] int  NOT NULL ,
     [title] varchar(255)  NOT NULL 
